@@ -1,0 +1,187 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    resize: none;
+    max-width: 280px;
+}
+
+
+.nav-item a {
+    font-size: 20px; /* Kích thước chữ */
+    color: white; /* Màu chữ giống với background */
+}
+
+.nav-link.active {
+    color: red; /* Màu chữ khi mục menu được chọn (active) */
+}
+
+.nav-link:hover {
+    color: rgb(155, 51, 246); /* Màu chữ khi di chuột vào mục menu */
+}
+
+.nav-link[aria-disabled="true"] {
+    color: gray; /* Màu chữ khi mục menu bị vô hiệu hóa */
+}
+
+.dropdown-menu {
+    /* CSS cho menu thả xuống */
+    background-color: rgb(155, 51, 246);
+    border: 1px solid; /* Viền của menu */
+    border-radius: 10px; /* Đường viền cong của menu */
+    padding: 10px; /* Khoảng cách nội dung và biên của menu */
+}
+
+.dropdown-item {
+    /* CSS cho các mục trong menu */
+    color: black; /* Màu chữ của các mục */
+    text-decoration: none; /* Loại bỏ gạch chân */
+}
+
+.form-control {
+    width: 300px; /* Độ rộng của khung tìm kiếm */
+    border-radius: 20px; /* Góc bo cho khung tìm kiếm */
+    padding: 10px; /* Khoảng cách nội dung và biên của khung tìm kiếm */
+}
+
+.btn {
+    /* Các thuộc tính CSS tùy chỉnh cho nút */
+    color: rgb(0, 200, 255);
+    background-color: rgb(78, 27, 231);
+    border-radius: 20px;
+}
+
+footer p {
+    color: #FFA852;
+    font-size: 30px;
+    font-family: "Lobster", cursive;
+}
+
+.home-body, .login-body{
+    background: url(Images/BG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.black-fill {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 100vh;
+}
+
+.welcome-text {
+    min-height: 125vh;
+}
+
+.welcome-text img {
+    width: 500px;
+}
+
+.welcome-text h4 {
+    color: #FFA852;
+    font-size: 51px;
+    font-family: "Lobster", cursive;
+}
+
+.welcome-text p {
+    color: lightsalmon;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.navbar-expand-sm {
+    background: #FFC670 !important;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+#about {
+    min-height: 100vh;
+}
+
+#about .mb-3 {
+    max-width: 600px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#about .card-title {
+    color: #FFA852;
+    font-size: 38px;
+    font-family: "Lobster", cursive;
+
+}
+
+#about .card-text {
+    color: whitesmoke;
+}
+
+#about .text-body-secondary {
+    font-size: 28px;
+    font-family: "Lobster", cursive;
+}
+
+#contact {
+    min-height: 60vh;
+}
+
+#contact form{
+    max-width: 370px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#contact form h3 {
+    text-align: center;
+    color: #FFA852;
+    font-size: 35px;
+    font-family: "Lobster", cursive;
+}
+
+#contact form label {
+    text-align: center;
+}
+
+#login {
+    max-width: 370px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#login-footer {
+    color: #FFA852;
+    font-size: 28px;
+    font-family: "Lobster", cursive;
+}
+
+.custom-label {
+    display: block;
+    text-align: right; /* Điều chỉnh vị trí của label */
+}
+
+#back-btn {
+    font-size: 18px;
+}
